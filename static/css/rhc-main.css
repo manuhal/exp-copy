@@ -1,10 +1,15 @@
 /* Rio palette :root */
 :root {
     --rio-gold: #f9c900;
+    --rio-gold-rgb: 249, 201, 0;
     --rio-dark-gray: #414042;
+    --rio-dark-gray-rgb: 65, 64, 66;
     --rio-dark-blue: #2A6491;
+    --rio-dark-blue-rgb: 42, 100, 145;
     --rio-med-blue: #2A96C6;
+    --rio-med-blue-rgb: 42, 150, 198;
     --rio-green: #33A961;
+    --rio-green-rgb: 51, 169, 97;
     --light-text: #ffffff;
     --dark-text: #404040;
 
@@ -22,7 +27,6 @@
     --bs-secondary-rgb: 42, 150, 198; 
     --bs-secondary: var(--rio-green);
     --bs-secondary-rgb: 51, 169, 97;
-
     */
 
     /* Primary subtle family: keep hue, big tint toward white */
