@@ -54,15 +54,6 @@
                border-left: 0;
                border-right: 0;
                padding: 0.5rem 1.5rem;
-          }
-
-          .list-group-item:hover {
-               /* hover color */
-               background: rgba(var(--bs-light-rgb), 0.25);
-               color: var(--light-text);
-          }
-
-          .list-group-item {
                display: flex;
                align-items: center;
                gap: 0.5rem;
@@ -75,6 +66,12 @@
           .list-group-item-text {
                flex: 1;
           }
+
+          .list-group-item:hover {
+               /* hover color */
+               background: rgba(var(--bs-light-rgb), 0.25);
+               color: var(--light-text);
+          }
      </style>
 </head>
 
@@ -84,21 +81,20 @@
                <div class="list-group">
                     <a href="https://prod-ssb9-sso.riohondo.edu:8443/ssomanager/c/SSB?pkg=https://ssb.riohondo.edu:8443/prodssb/twbkwbis.P_GenMenu?name=bmenu.P_MainMnu"
                          target="_blank" rel="noopener noreferrer" class="list-group-item list-group-item-action"
-                         name="SSB Link">
+                         name="SSB Link" title="Self-Service Banner (SSB) Link">
                          <i class="fas fa-chalkboard"></i>
                          <span class="list-group-item-text">Self-Service Banner (SSB) Link</span>
                     </a>
                     <a href="https://prod-ssb9-employee.riohondo.edu:8443/EmployeeSelfService/"
                          name="Employee Dashboard" target="_blank" rel="noopener noreferrer"
-                         class="list-group-item list-group-item-action">
+                         class="list-group-item list-group-item-action" title="Employee Dashboard">
                          <i class="fas fa-tachometer-alt "></i>
                          <span class="list-group-item-text">Employee Dashboard</span>
                     </a>
                     </a>
                     <a href="https://prod-ssb9-general.riohondo.edu:8443/BannerGeneralSsb/ssb/personalInformation#/personalInformationMain"
                          name="My Profile - Personal Information" target="_blank" rel="noopener noreferrer"
-                         class="list-group-item list-group-item-action">
-
+                         class="list-group-item list-group-item-action" title="My Profile">
                          <i class="fas fa-user"></i>
                          <span class="list-group-item-text">My Profile</span>
                     </a>
